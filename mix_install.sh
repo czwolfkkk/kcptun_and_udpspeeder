@@ -29,13 +29,15 @@ read -p "请输入数字:" udpspeederport
 mkdir /usr/src/$yourdir
 mkdir /usr/src/$yourdir/client
 cd /usr/src/$yourdir/client
-wget https://raw.githubusercontent.com/atrandys/kcptun_and_udpspeeder/master/start.bat
-wget https://raw.githubusercontent.com/atrandys/kcptun_and_udpspeeder/master/stop.bat
-wget https://raw.githubusercontent.com/atrandys/kcptun_and_udpspeeder/master/kcptun_client.json
+wget https://raw.githubusercontent.com/czwolfkkk/kcptun_and_udpspeeder/master/Client/start.bat
+wget https://raw.githubusercontent.com/czwolfkkk/kcptun_and_udpspeeder/master/Client/stop.bat
+wget https://raw.githubusercontent.com/czwolfkkk/kcptun_and_udpspeeder/master/Client/kcptun_client.json
+wget https://github.com/czwolfkkk/kcptun_and_udpspeeder/raw/master/Client/client_windows_amd64.exe
+wget https://github.com/czwolfkkk/kcptun_and_udpspeeder/raw/master/Client/speederv2.exe
 cd /usr/src/$yourdir
-wget https://raw.githubusercontent.com/atrandys/kcptun_and_udpspeeder/master/kcptun_server.json
-wget https://github.com/atrandys/kcptun_and_udpspeeder/raw/master/speederv2_amd64
-wget https://github.com/atrandys/kcptun_and_udpspeeder/raw/master/server_linux_amd64
+wget https://raw.githubusercontent.com/czwolfkkk/kcptun_and_udpspeeder/master/kcptun_server.json
+wget https://github.com/czwolfkkk/kcptun_and_udpspeeder/raw/master/speederv2_amd64
+wget https://github.com/czwolfkkk/kcptun_and_udpspeeder/raw/master/server_linux_amd64
 chmod +x speederv2_amd64 server_linux_amd64
 
 #设置参数
